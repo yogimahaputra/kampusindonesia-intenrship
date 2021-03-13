@@ -1,0 +1,414 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="../assets/scss/styles.css"/>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>KAMPUS INDONESIA</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img class="logo-nav" src="../assets/img/logo.png"> </a>
+          <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav menu-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Beranda</a>
+              </li>
+              <li class="nav-item ">
+                    <div class="dropdown show dropdown-navbar">
+                        <a class="btn btn-secondary dropdown-toggle " href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Fitur
+                        </a>
+                      
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                          <a class="dropdown-item" href="#">Cari Kampus/prodi</a>
+                          <a class="dropdown-item" href="#">Cari Seminar/workshop</a>
+                          <a class="dropdown-item" href="#">Cari Beasiswa</a>
+                          <a class="dropdown-item" href="#">Cari Lomba</a>
+                          <a class="dropdown-item" href="#">Cari Lowongan</a>
+                          <a class="dropdown-item" href="#">Cari Utbk</a>
+                        </div>
+                      </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#">Profil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#">Blog</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+              <li class="action-nav">
+                <a class="nav-link active" aria-current="page" href="#">
+                    <button type="button" class="btn btn-block" data-toggle="modal" data-target="#exampleModal">Masuk</button>
+                </a>
+              </li>
+              <li class="action-nav">
+                <a class="nav-link " aria-current="page" href="#">
+                    <button type="button" class="btn btn-primary btn-block"  data-toggle="modal" data-target="#daftars">Daftar</button>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="alert alert-success alert-dismissible fade show popup-top" role="alert">
+        <strong>Halo, Pejuang kampus!</strong> Nikmati semua fitur yang kami sediakan untukmu.
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+
+      <div class="container flex-column-reverse ">
+            <div class="row flex-row-reverse">
+
+                <div class="col-sm">
+                    <div class="right-hero">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+
+                                <img height="300" class="d-block w-100" src="https://awsimages.detik.net.id/community/media/visual/2019/02/12/43b5e043-b813-47c9-b0c1-3c8fa14bf6ae_43.jpeg?w=700&q=90" alt="First slide">
+                                <div class="carousel-caption d-md-block">
+                                    <h5>UNIVERSITAS INDONESIA</h5>
+                                    <p>Universitas di Kota Depok, Jawa Barat</p>
+                                  </div>
+                            </div>
+                              <div class="carousel-item">
+                                <img height="300" class="d-block w-100" src="https://asset.kompas.com/crops/NchN5n1fhJnWAk9Ea_JsDWa6-RA=/150x138:848x603/750x500/data/photo/2019/02/07/4749953165.JPG" alt="Second slide">
+                                <div class="carousel-caption d-md-block">
+                                    <h5>UNIVERSITAS GAJAH MADA</h5>
+                                    <p>Universitas di Yogyakarta  </p>
+                                  </div>
+                            </div>
+                              <div class="carousel-item">
+                                <img height="300" class="d-block w-100" src="https://cdn-2.tstatic.net/surabaya/foto/bank/images/unesa-kampus-lidah-wetan-surabaya.jpg" alt="Third slide">
+                                <div class="carousel-caption d-md-block">
+                                    <h5>UNIVERSITAS NEGERI SURABAYA</h5>
+                                    <p>Universitas negeri di Surabaya, Jawa Timur</p>
+                                  </div>
+                            </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Next</span>
+                            </a>
+                          </div>
+                    </div>
+                </div>
+    
+                <div class="col-sm heading-title ">
+                    <div class="text-hero">
+                        <h1 class="heading-title-content">
+                            Bingung Cari Informasi
+                        </h1>
+                        <h1 class="heading-title-content">
+                            Seputar Kuliah ?
+                        </h1>
+                        <h3 class="heading-title-content">
+                            Cari disini aja !
+                        </h3>
+                        <br/>
+                        <p class="text-title-conent">
+                            Dapatkan informasi seputar dunia perkuliahan secara terupdate dan kami
+                            melalui aplikasi kampus indonesia
+                        </p>
+                        <br>
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Informasi Seputar perkuliahan/cari kampus" aria-label="Informasi Seputar perkuliahan/cari kampus" aria-describedby="basic-addon2">
+                            <div class="input-group-append">
+                              <button class="btn btn-primary" type="button">Cari</button>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+        </div>
+      </div>
+
+      <div class="container flex-column-reverse content2">
+        <div class="card">
+            <div class="card-body">
+                <div class="row flex-row-reverse">
+                    <div class="col-sm tes">
+                        <img width="150" src="../assets/icon/undraw_Graduation_ktn0.png" />
+                        <div>
+                            <p><span><b>1,231</b></span><br>
+                            Pejuang Kampus!</p>
+                        </div>
+                    </div>
+                    <div class="col-sm tes">
+                        <img width="150" src="../assets/icon/undraw_Graduation_ktn0.png" />
+                        <div>
+                            <p><span><b>1,231</b></span><br>
+                            Pejuang Kampus!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+      </div>
+
+      <div class="banner-center">
+        <div class="text-banner">
+            <h1>Rekomendasi Kampus Terbaik dari kami!</h1>
+            <p>Dapatkan Informasi Kampus lainnya dan info perkuliahan lainnya secara terupdate</p>
+        </div>
+        <div class="carousel-banner">
+            <div id="carouselExampleSlidesOnly" class="carousel slide " data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active ">
+                    <div class="content-banner">
+                        <div class="card" style="width: 18rem; height: 400px;">
+                            <img height="200" class="card-img-top" src="https://awsimages.detik.net.id/community/media/visual/2019/02/12/43b5e043-b813-47c9-b0c1-3c8fa14bf6ae_43.jpeg?w=700&q=90" alt="Card image cap">
+                            <div class="card-body">
+                              <h5 class="card-title">Universitas Indonesia<br>
+                                  <span>Depok</span>
+                              </h5>
+                              <p class="card-text">Universitas Indonesia disingkat sebagai UI, adalah sebuah perguruan tinggi di Indonesia. Kampus utamanya terletak di bagian Utara dari Depok, Jawa Barat tepat di perbatasan antara Depok dengan wilayah Jakarta Selatan, dan kampus utama lainnya terdapat di daerah Salemba di Jakarta Pusat.</p>
+                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                          </div>
+                        <div class="card" style="width: 18rem; height: 400px;">
+                            <img height="200" class="card-img-top" src="https://asset.kompas.com/crops/NchN5n1fhJnWAk9Ea_JsDWa6-RA=/150x138:848x603/750x500/data/photo/2019/02/07/4749953165.JPG" alt="Card image cap">
+                            <div class="card-body">
+                              <h5 class="card-title">Universitas Gajah Mada<br>
+                                <span>Yogyakarta</span>
+                              </h5>
+                              <p class="card-text">Universitas Gadjah Mada merupakan universitas negeri di Indonesia yang didirikan oleh Pemerintah Republik Indonesia pada tanggal 19 Desember 1949 berdasarkan Peraturan Pemerintah Nomor 23 Tahun 1949 tentang Peraturan Tentang Penggabungan Perguruan Tinggi Menjadi Universiteit tanggal 16 Desember 1949.</p>
+                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                          </div>
+                        <div class="card" style="width: 18rem; height: 400px;">
+                            <img height="200" class="card-img-top" src="https://cdn-2.tstatic.net/surabaya/foto/bank/images/unesa-kampus-lidah-wetan-surabaya.jpg" alt="Card image cap">
+                            <div class="card-body">
+                              <h5 class="card-title">Universitas Negeri Surabaya<br>
+                                  <span>Surabaya</span>
+                              </h5>
+                              <p class="card-text">Universitas Negeri Surabaya adalah Perguruan Tinggi Negeri di Kota Surabaya, Jawa Timur, Indonesia. UNESA menempati peringkat ke-19 dalam klasterisasi pemeringkatan perguruan tinggi 2020 oleh Kementerian Pendidikan dan Kebudayaan Republik Indonesia. Unesa didirikan pada 19 Desember 1964. </p>
+                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                          </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                        <div class="content-banner">
+                            <div class="card" style="width: 18rem; height: 400px;">
+                                <img height="200" class="card-img-top" src="https://kampusimpian.com/wp-content/uploads/2019/11/Universitas-Sriwijaya.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Universitas Negeri Surabaya<br>
+                                        <span>Surabaya</span>
+                                    </h5>
+                                    <p class="card-text">Universitas Sriwijaya merupakan satu perguruan tinggi negeri yang menjadi kebanggaan dan favorit mahasiswa di Sumatra. Tentu akan menjadi kebanggaan tersendiri bagi Quipperian yang berhasil masuk di kampus yang terkenal dengan jaket almamater warna kuning ini! </p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                  </div>
+                              </div>
+                              <div class="card" style="width: 18rem; height: 400px;">
+                                <img height="200" class="card-img-top" src="https://cdn-2.tstatic.net/surabaya/foto/bank/images/unesa-kampus-lidah-wetan-surabaya.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                  <h5 class="card-title">Universitas Negeri Surabaya<br>
+                                      <span>Surabaya</span>
+                                  </h5>
+                                  <p class="card-text">Universitas Negeri Surabaya adalah Perguruan Tinggi Negeri di Kota Surabaya, Jawa Timur, Indonesia. UNESA menempati peringkat ke-19 dalam klasterisasi pemeringkatan perguruan tinggi 2020 oleh Kementerian Pendidikan dan Kebudayaan Republik Indonesia. Unesa didirikan pada 19 Desember 1964. </p>
+                                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                              </div>
+                              <div class="card" style="width: 18rem; height: 400px;">
+                                <img height="200" class="card-img-top" src="https://cdn-2.tstatic.net/surabaya/foto/bank/images/unesa-kampus-lidah-wetan-surabaya.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                  <h5 class="card-title">Universitas Negeri Surabaya<br>
+                                      <span>Surabaya</span>
+                                  </h5>
+                                  <p class="card-text">Universitas Negeri Surabaya adalah Perguruan Tinggi Negeri di Kota Surabaya, Jawa Timur, Indonesia. UNESA menempati peringkat ke-19 dalam klasterisasi pemeringkatan perguruan tinggi 2020 oleh Kementerian Pendidikan dan Kebudayaan Republik Indonesia. Unesa didirikan pada 19 Desember 1964. </p>
+                                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                              </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+      </div>
+
+      <div class="banner-bottom">
+        <p>
+            <b>Bekerja sama dengan</b>
+        </p>
+        <div class="container-bottom">
+            <img height="100" src="../assets/img/telkom.png">
+            <img height="100" src="../assets/img/ui.png">
+            <img height="100" src="../assets/img/ugm.png">
+            <img height="100" src="../assets/img/itb.png">
+            <img height="100" src="../assets/img/ipb.png">
+        </div>
+      </div>
+      <!-- <div class="container flex-column-reverse content2">
+        <div class="card">
+            <div class="card-body">
+                <div class="row flex-row-reverse">
+                    <div class="col-sm">
+                        This is some text within a card body.
+                    </div>
+                    <div class="col-sm">
+                      This is some text within a card body.
+                    </div>
+                </div>
+            </div>
+          </div>
+      </div> -->
+      <br>
+      <footer>
+          <div class="container-footer">
+            <div class="left-footer">
+                <h1>"Kampus<br>indonesia,</h1><br>
+                <p>
+                    Kami merupakan perusahaan dibidang informasi seputar<br>
+                    seputar dunia perkuliahan yang bisa memberikan informasi<br> 
+                    secara terupdate dan dapat dipercaya sepenuhnya.<br>
+                </p>
+                <p>
+                    <b>PT. Inspirasi Mandiri Nusantara</b><br>
+                    Kec Lokawiru,<br>
+                    Kota Malang, Jawa Timur
+                    <b>Telepon</b><br>
+                    021 3452 2885<br>
+                    <b>Email</b><br>
+                    info@kampusindonesia.id<br>
+                </p>
+            </div>
+            <div class="right-footer">
+                <div>
+                    <b>PERUSAHAAN</b>
+                    <ul>
+                         <br>
+                         <li><a href="#">Tentang Kami</a></li>
+                         <li><a href="#">Hubungi Kami</a></li>
+                         <li><a href="#">Feedback</a></li>
+                         <li><a href="#">Partner</a></li>
+                     </ul>
+                 </div>
+                 <div>
+                     <b>Fitur</b>
+                     <ul>
+                         <br>
+                         <li><a href="#">Cari Kampus/Prodi</a></li>
+                         <li><a href="#">Cari Seminar/Workshop</a></li>
+                         <li><a href="#">Cari Beasiswa</a></li>
+                         <li><a href="#">Cari Lomba</a></li>
+                         <li><a href="#">Cari Lowongan</a></li>
+                         <li><a href="#">UTBK</a></li>
+                     </ul>
+                 </div>
+                 <div>
+                     <b>Lainnya</b>
+                     <ul>
+                         <br>
+                         <li><a href="#">Bantuan</a></li>
+                         <li><a href="#">Blog</a></li>
+                     </ul>
+                 </div>
+            </div>
+        </div>
+        <div class="center-footer">
+           <p>
+               © 2020 - Kampus Indonesia
+           </p>
+         </div>
+
+      </footer>
+  <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Selamat Datang Kembali!</h5><br>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputPassword1">Password</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                    </div>
+                    <div class="form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                    <br>
+                    <button type="submit" class="btn btn-primary" style="float: right;">Masuk</button>
+                  </form>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="daftars"  tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Selamat Datang Kembali!</h5><br>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputPassword1">Password</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                    </div>
+                    <div class="form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                    <br>
+                    <button type="submit" class="btn btn-primary" style="float: right;">Daftar</button>
+                  </form>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>

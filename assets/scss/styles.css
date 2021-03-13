@@ -1,0 +1,426 @@
+* {
+  font-family: "Open sans", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.btn {
+  background-color: #ffffff !important;
+  border: 0 !important;
+  box-shadow: none;
+}
+
+.btn-primary,
+.btn-primary:active,
+.btn-primary:visited {
+  background-color: #1c63c7 !important;
+  border: 0 !important;
+  box-shadow: none;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.navbar .container-fluid {
+  padding: 2vh 20vh;
+}
+.navbar .container-fluid .navbar-collapse {
+  margin-top: 10px;
+}
+.navbar .container-fluid .navbar-collapse .menu-nav {
+  height: 10vh;
+}
+.navbar .container-fluid .navbar-collapse ul li #dropdownMenuLink {
+  color: #6e736f;
+  background-color: #ffffff;
+  border: 0 !important;
+  box-shadow: none;
+  margin-top: 2px;
+}
+.navbar .container-fluid .navbar-collapse ul .nav-item {
+  margin: 10px;
+  text-align: center;
+}
+.navbar .container-fluid .navbar-collapse ul .nav-item a:hover {
+  border-bottom: 3px solid #213061;
+}
+.navbar .container-fluid .navbar-collapse ul .action-nav:hover {
+  border-bottom: none;
+}
+.navbar .container-fluid .logo-nav {
+  width: 16vh;
+}
+.navbar .container-fluid .btn:focus {
+  outline: none !important;
+}
+
+.container .col-sm .right-hero {
+  padding: 8vh 0vh;
+}
+.container .col-sm .right-hero .carousel {
+  width: 450px;
+}
+.container .col-sm .right-hero .carousel img {
+  border-radius: 20px;
+}
+.container .col-sm .right-hero .carousel .carousel-caption {
+  line-height: 5px;
+}
+.container .col-sm .right-hero .carousel .carousel-caption p {
+  font-size: 10px;
+}
+.container .col-sm .text-hero {
+  padding: 8vh 10vh;
+}
+.container .col-sm .text-hero .input-group {
+  border-radius: 20px;
+}
+
+.popup-top {
+  display: none;
+}
+
+.content2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content2 .card {
+  padding: 0 20px;
+  width: 600px;
+}
+
+.tes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tes p {
+  margin-left: 10px;
+  font-size: 10px;
+}
+.tes p span b {
+  font-size: 30px;
+}
+
+.banner-center {
+  margin-top: 30px;
+  display: flex;
+  background-color: #363636;
+}
+.banner-center .text-banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  color: #ffffff;
+}
+.banner-center .text-banner h1 {
+  font-size: 20px;
+}
+.banner-center .text-banner p {
+  font-size: 10px;
+}
+.banner-center .carousel-banner {
+  background-color: #f7f7f7;
+  width: 100%;
+  padding: 20px;
+}
+.banner-center .carousel-banner .content-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner-center .carousel-banner .content-banner .card {
+  margin: 10px;
+}
+.banner-center .card-body h5 {
+  font-size: 10px;
+  font-weight: 800;
+}
+.banner-center .card-body h5 span {
+  font-weight: 100;
+}
+.banner-center .card-body p {
+  font-size: 10px;
+  overflow-y: auto;
+  height: 70px;
+}
+
+footer {
+  width: 100%;
+  background-color: #213061;
+  color: #ffffff;
+}
+footer .container-footer {
+  display: flex;
+  padding: 30px 100px;
+}
+footer .container-footer h1 {
+  line-height: 35px;
+}
+footer .container-footer p {
+  font-size: 10px;
+}
+footer .container-footer .right-footer {
+  display: flex;
+  padding-left: 50px;
+}
+footer .container-footer .right-footer div {
+  padding: 30px;
+}
+footer .container-footer .right-footer ul li {
+  line-height: 15px;
+}
+footer .container-footer .right-footer ul li a {
+  font-size: 10px;
+  color: #ffffff;
+}
+footer .center-footer {
+  padding: 10px;
+  font-size: 15px;
+  text-align: center;
+}
+
+.banner-bottom {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.banner-bottom p {
+  font-size: 20px;
+  text-align: center;
+}
+.banner-bottom .container-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner-bottom .container-bottom img {
+  margin: 20px;
+}
+
+@media screen and (max-width: 990px) {
+  .navbar .container-fluid {
+    padding: 2vh 20vh;
+  }
+  .navbar .container-fluid .navbar-collapse {
+    margin-top: 10px;
+  }
+  .navbar .container-fluid .navbar-collapse .menu-nav {
+    height: 30vh;
+  }
+  .navbar .container-fluid .navbar-collapse ul li #dropdownMenuLink {
+    color: #6e736f;
+    background-color: #ffffff;
+    border: 0 !important;
+    box-shadow: none;
+    margin-top: 2px;
+  }
+  .navbar .container-fluid .navbar-collapse ul .nav-item {
+    margin: 10px;
+    text-align: center;
+  }
+  .navbar .container-fluid .navbar-collapse ul .nav-item a:hover {
+    border-bottom: 3px solid red;
+  }
+  .navbar .container-fluid .navbar-collapse ul .action-nav:hover {
+    border-bottom: none;
+  }
+  .navbar .container-fluid .logo-nav {
+    width: 16vh;
+  }
+  .navbar .container-fluid .btn:focus {
+    outline: none !important;
+  }
+  .navbar .container-fluid .btn {
+    background-color: #ffffff !important;
+    border: 0 !important;
+    box-shadow: none;
+  }
+  .navbar .container-fluid .btn-primary,
+.navbar .container-fluid .btn-primary:active,
+.navbar .container-fluid .btn-primary:visited {
+    background-color: #1c63c7 !important;
+    border: 0 !important;
+    box-shadow: none;
+    border-radius: 8px;
+  }
+
+  .container .col-sm .right-hero {
+    padding: 8vh 0vh;
+  }
+  .container .col-sm .right-hero .carousel {
+    width: 400px;
+  }
+  .container .col-sm .right-hero .carousel img {
+    border-radius: 20px;
+  }
+  .container .col-sm .right-hero .carousel .carousel-caption {
+    line-height: 5px;
+  }
+  .container .col-sm .right-hero .carousel .carousel-caption p {
+    font-size: 10px;
+  }
+  .container .col-sm .text-hero {
+    padding: 8vh 5vh;
+  }
+  .container .col-sm .text-hero .input-group {
+    border-radius: 20px;
+  }
+
+  .popup-top {
+    display: block;
+  }
+
+  .content2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .content2 .card {
+    padding: 0 20px;
+    width: 300px;
+  }
+
+  .tes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .tes p {
+    margin-left: 10px;
+    font-size: 10px;
+  }
+  .tes p span b {
+    font-size: 30px;
+  }
+
+  footer {
+    width: 100%;
+    background-color: #213061;
+    color: #ffffff;
+  }
+  footer .container-footer {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 20px;
+  }
+  footer .container-footer h1 {
+    line-height: 35px;
+  }
+  footer .container-footer p {
+    font-size: 10px;
+  }
+  footer .container-footer .right-footer {
+    display: flex;
+    flex-direction: column;
+  }
+  footer .container-footer .right-footer div {
+    padding: 10px;
+    margin-left: -60px;
+  }
+  footer .container-footer .right-footer ul li {
+    line-height: 15px;
+  }
+  footer .container-footer .right-footer ul li a {
+    font-size: 10px;
+    color: #ffffff;
+  }
+  footer .center-footer {
+    padding: 10px;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .banner-center {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: #363636;
+  }
+  .banner-center .text-banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    color: #ffffff;
+  }
+  .banner-center .text-banner h1 {
+    font-size: 20px;
+  }
+  .banner-center .text-banner p {
+    font-size: 10px;
+  }
+  .banner-center .carousel-banner {
+    background-color: #f7f7f7;
+    width: 100%;
+    padding: 20px;
+  }
+  .banner-center .carousel-banner .content-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .banner-center .carousel-banner .content-banner .card {
+    margin: 10px;
+  }
+  .banner-center .card-body h5 {
+    font-size: 10px;
+    font-weight: 800;
+  }
+  .banner-center .card-body h5 span {
+    font-weight: 100;
+  }
+  .banner-center .card-body p {
+    font-size: 10px;
+    overflow-y: auto;
+    height: 70px;
+  }
+
+  .banner-bottom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .banner-bottom p {
+    font-size: 20px;
+    text-align: center;
+  }
+  .banner-bottom .container-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .banner-bottom .container-bottom img {
+    margin: 20px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
