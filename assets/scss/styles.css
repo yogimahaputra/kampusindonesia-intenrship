@@ -232,7 +232,7 @@ footer .center-footer {
     margin-top: 10px;
   }
   .navbar .container-fluid .navbar-collapse .menu-nav {
-    height: 30vh;
+    height: 45vh;
   }
   .navbar .container-fluid .navbar-collapse ul li #dropdownMenuLink {
     color: #6e736f;
@@ -246,7 +246,7 @@ footer .center-footer {
     text-align: center;
   }
   .navbar .container-fluid .navbar-collapse ul .nav-item a:hover {
-    border-bottom: 3px solid red;
+    border-bottom: 3px solid #213061;
   }
   .navbar .container-fluid .navbar-collapse ul .action-nav:hover {
     border-bottom: none;
