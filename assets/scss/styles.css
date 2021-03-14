@@ -273,9 +273,12 @@ footer .center-footer {
 
   .container .col-sm .right-hero {
     padding: 8vh 0vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .container .col-sm .right-hero .carousel {
-    width: 400px;
+    width: 350px;
   }
   .container .col-sm .right-hero .carousel img {
     border-radius: 20px;

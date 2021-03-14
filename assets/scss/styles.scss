@@ -349,9 +349,11 @@ footer{
         .col-sm{
             .right-hero{
                 padding: 8vh 0vh;
-    
+                display: flex;
+                justify-content: center;
+                align-items: center;
                 .carousel{
-                    width: 400px;
+                    width: 350px;
                     
                     img{
                         border-radius: 20px;
