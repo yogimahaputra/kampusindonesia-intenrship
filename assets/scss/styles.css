@@ -290,7 +290,7 @@ footer .center-footer {
     font-size: 10px;
   }
   .container .col-sm .text-hero {
-    padding: 8vh 2vh;
+    padding: 8vh 0vh;
   }
   .container .col-sm .text-hero .input-group {
     border-radius: 20px;
